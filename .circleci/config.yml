@@ -10,6 +10,10 @@ jobs:
           command: |
             npm install --save
       - run:
+        name: Instalando http-server
+        command: |
+            npm install -g http-server
+      - run:
           name: Build vuejs
           command: |
             npm run build
